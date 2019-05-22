@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
+    "antd": "^3.18.2",
+    "babel-preset-react-app": "^7.0.0",
+    "react": "^16.5.2",
     "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.2",
     "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "eslint-plugin-react-hooks": "^1.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,16 +23,10 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
